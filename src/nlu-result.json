@@ -1,0 +1,217 @@
+[ 
+    { "name":"Adhoc Committee",
+       "treatement_type":"regex",
+       "value":"Yes"
+    },
+    { "name" :"Dividend Distribution During Offer Period",
+       "treatement_type":"regex",
+       "value":"N/A"
+    },
+    { 
+       "name":"Type of Deal",
+       "treatement_type":"regex",
+       "value":"offre publique d\u2019achat"
+    },
+    { "name":"Number of Stock",
+       "treatement_type":"regex",
+       "value":61525860
+    },
+    { 
+       "name": "Stock Price",
+       "treatement_type":"regex",
+       "value":37.5
+    },
+    { 
+       "name": "Optional Level Of Acceptance",
+       "treatement_type":"regex",
+       "value":"N/A"
+    },
+    { 
+       "name":"Mandatory Level Of Acceptance",
+       "treatement_type":"regex",
+       "value":"N/A"
+    },
+    { 
+       "name":"Block Purchase",
+       "treatement_type":"regex",
+       "value":"Yes \n C 29,80% \n VR 29,80%"
+    },
+    { 
+       "name": "Clearance Date",
+       "treatement_type":"regex",
+       "value":"16 octobre 2012"
+    },
+    { 
+       "name": "bidder_name",
+       "treatement_type":"Q&A",
+       "prababilities":[ 
+          { 
+             "text":"exer\u00e7ables d\u2019ici la cl\u00f4ture",
+             "probability":0.063404732481982,
+             "start_logit":1.0915452241897583,
+             "end_logit":0.5809224247932434
+          },
+          { 
+             "text":"dis, filiale de PPR SA (",
+             "probability":0.058235138909404696,
+             "start_logit":0.9246389865875244,
+             "end_logit":0.6627790927886963
+          },
+          { 
+             "text":"exer\u00e7ables d\u2019ici la cl\u00f4ture de l\u2019Offre ou de l\u2019Offre Reouverte, et - Au 16 octobre",
+             "probability":0.058222488179716585,
+             "start_logit":1.0915452241897583,
+             "end_logit":0.4956555962562561
+          },
+          { 
+             "text":"des Societes de Nanterre sous le numero 552 056 152, (\u00ab CFAO \u00bb ou la \u00ab Societe \u00bb) et",
+             "probability":0.05753017992628206,
+             "start_logit":0.8380657434463501,
+             "end_logit":0.7371730804443359
+          },
+          { 
+             "text":"-apr\u00e8s (",
+             "probability":0.054306907201143666,
+             "start_logit":0.5015395283699036,
+             "end_logit":1.0160410404205322
+          },
+          { 
+             "text":"des Societes de Nanterre sous le numero 552 056 152, (",
+             "probability":0.05427669549949264,
+             "start_logit":0.8380657434463501,
+             "end_logit":0.6789583563804626
+          },
+          { 
+             "text":"droits de vote de CFAO. L\u2019Offre sera realisee selon la procedure normale conformement",
+             "probability":0.05165964532899068,
+             "start_logit":0.579017162322998,
+             "end_logit":0.8885889053344727
+          },
+          { 
+             "text":"-jacentes aux 963 875 options",
+             "probability":0.05158588761349311,
+             "start_logit":0.8084407448768616,
+             "end_logit":0.6577365398406982
+          },
+          { 
+             "text":"est situe 18, rue Troyon, 92316 S\u00e8vres, France, immatriculee au Registre du Commerce et",
+             "probability":0.04991916645335418,
+             "start_logit":0.8091191649436951,
+             "end_logit":0.6242150068283081
+          },
+          { 
+             "text":"ue de toutes distributions de la So",
+             "probability":0.04859495965884994,
+             "start_logit":0.7714386582374573,
+             "end_logit":0.635010302066803
+          },
+          { 
+             "text":"ribution. Les actions attribuees gratuitement ne pourront donc",
+             "probability":0.04840822090826178,
+             "start_logit":0.5652984976768494,
+             "end_logit":0.8373003005981445
+          },
+          { 
+             "text":"r\u00e8glement-livraison de l\u2019offre) dans les conditions Record Date decrites ci-apr\u00e8s (l\u2019",
+             "probability":0.04795393742718202,
+             "start_logit":0.3771290183067322,
+             "end_logit":1.0160410404205322
+          },
+          { 
+             "text":"- l\u2019Offre ne porte pas sur les actions sous-jacentes aux 963 875 options",
+             "probability":0.04686798633492323,
+             "start_logit":0.7125274538993835,
+             "end_logit":0.6577365398406982
+          },
+          { 
+             "text":"sous-jacentes aux 963 875 options de souscription d\u2019actions attribuees",
+             "probability":0.04584097635012697,
+             "start_logit":0.8084407448768616,
+             "end_logit":0.5396667718887329
+          },
+          { 
+             "text":"231-13 I du r\u00e8glement general de l\u2019AMF, Credit Agricole Corporate and Investment Bank",
+             "probability":0.045212612309129575,
+             "start_logit":0.569195032119751,
+             "end_logit":0.765110194683075
+          },
+          { 
+             "text":"14 septembre",
+             "probability":0.044350472554112744,
+             "start_logit":0.848508358001709,
+             "end_logit":0.46654415130615234
+          },
+          { 
+             "text":"14 septembre 2012, date du dep\u00f4t du projet",
+             "probability":0.043724106213096046,
+             "start_logit":0.848508358001709,
+             "end_logit":0.4523203670978546
+          },
+          { 
+             "text":"emis par CFAO susceptible de donner acc\u00e8s, immediatement ou \u00e0 terme, au capital social",
+             "probability":0.04357415660053473,
+             "start_logit":0.45433592796325684,
+             "end_logit":0.8430574536323547
+          },
+          { 
+             "text":"prel\u00e8vement",
+             "probability":0.043196362724695285,
+             "start_logit":0.7616139650344849,
+             "end_logit":0.527071475982666
+          },
+          { 
+             "text":"14 septembre 2012, date du dep\u00f4t du projet d\u2019Offre,",
+             "probability":0.04313536732522779,
+             "start_logit":0.848508358001709,
+             "end_logit":0.4387640357017517
+          }
+       ],
+       "data": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tempor diam interdum, pretium magna ut, ullamcorper ante. In lectus elit, blandit a lobortis id, semper nec turpis. Vestibulum nec neque erat. Mauris viverra elit tincidunt metus dictum mollis. Mauris nec consectetur nulla, vitae volutpat ipsum. In dolor dui, volutpat sed tempus in, commodo eu neque. Donec tincidunt quam sem, blandit porttitor sem tincidunt ac. Ut euismod ultrices sem nec bibendum."
+    },
+    { 
+       "name" : "intent_to_merge",
+       "treatement_type":"classification",
+       "prababilities":[ 
+          { 
+             "category":"Yes",
+             "probability":0.52009135
+          },
+          { 
+             "category":"No",
+             "probability":0.47990856
+          }
+       ],
+       "data": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tempor diam interdum, pretium magna ut, ullamcorper ante. In lectus elit, blandit a lobortis id, semper nec turpis. Vestibulum nec neque erat. Mauris viverra elit tincidunt metus dictum mollis. Mauris nec consectetur nulla, vitae volutpat ipsum. In dolor dui, volutpat sed tempus in, commodo eu neque. Donec tincidunt quam sem, blandit porttitor sem tincidunt ac. Ut euismod ultrices sem nec bibendum."
+    
+    },
+    { 
+       "name": "intent_to_squeeze_out",
+       "treatement_type":"classification",
+       "prababilities":[ 
+          { 
+             "category":"Yes",
+             "probability":0.39930904
+          },
+          { 
+             "category":"No",
+             "probability":0.6006909
+          }
+       ],
+       "data": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tempor diam interdum, pretium magna ut, ullamcorper ante. In lectus elit, blandit a lobortis id, semper nec turpis. Vestibulum nec neque erat. Mauris viverra elit tincidunt metus dictum mollis. Mauris nec consectetur nulla, vitae volutpat ipsum. In dolor dui, volutpat sed tempus in, commodo eu neque. Donec tincidunt quam sem, blandit porttitor sem tincidunt ac. Ut euismod ultrices sem nec bibendum."
+    },
+    { 
+       "name": "intent_to_delist",
+       "treatement_type":"classification",
+       "prababilities":[ 
+          { 
+             "category":"Yes",
+             "probability":0.40807843
+          },
+          { 
+             "category":"No",
+             "probability":0.59192157
+          }
+       ],
+       "data": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tempor diam interdum, pretium magna ut, ullamcorper ante. In lectus elit, blandit a lobortis id, semper nec turpis. Vestibulum nec neque erat. Mauris viverra elit tincidunt metus dictum mollis. Mauris nec consectetur nulla, vitae volutpat ipsum. In dolor dui, volutpat sed tempus in, commodo eu neque. Donec tincidunt quam sem, blandit porttitor sem tincidunt ac. Ut euismod ultrices sem nec bibendum."
+    }
+   ]

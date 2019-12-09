@@ -11,3 +11,109 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+/* -- General -- */
+.logo-addv {
+  position: absolute;
+  width: 123px;
+  top: -22px;
+  right: 2%;
+}
+
+/* -- End General -- */
+
+/* -- Upload -- */
+
+.upload-form {
+  margin-top: 5%;
+}
+
+.upload-card .ant-card-body {
+  background: url("background-blue2.png") !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+.ant-card-head {
+  background-color: lightslategray !important;
+  color: white !important;
+}
+
+.ant-form {
+  margin-top: 3% !important;
+}
+
+.submit-btn {
+  margin-top: 24px !important;
+}
+
+.ant-upload-list-item-list-type-text {
+  background: #e6f7ff;
+  border-radius: 2px;
+}
+
+.field-name {
+  font-weight: bold;
+  height: 50px !important;
+  margin-top: 2% !important;
+  font-weight: normal !important;
+}
+
+/* -- End Upload -- */
+
+/* -- Result -- */
+
+.result-grid {
+  margin-top: 2%;
+}
+
+.regex-value {
+  margin-left: 3%;
+  font-weight: bold;
+  position: absolute;
+  right: 0;
+}
+
+.list-regex {
+  width: 30%;
+}
+
+.qa-value {
+  font-weight: bold;
+}
+
+.classif-value {
+  font-weight: bold;
+}
+
+.ant-list-split .ant-list-item {
+  border: 0px !important;
+}
+
+.qa-div {
+  margin-left: 2%;
+  margin-top: 1%;
+}
+
+.qa-radio {
+  white-space: normal !important;
+  text-indent: 0px !important;
+  display: inline-block !important; 
+  line-height: 20px !important;
+}
+
+input[type=radio] {
+  float: left;
+  display: block;
+  margin-top: 4px;
+}
+
+.classif-div {
+  margin-top: 1%;
+}
+
+.prediction {
+  margin-left: 30px;
+}
+
+/* -- End Result -- */
